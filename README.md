@@ -4,19 +4,6 @@ A child theme for the [Twenty Twenty](https://wordpress.org/themes/twentytwenty/
 
 ---
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Installation](#installation)
-- [Features & Usage](#features--usage)
-  - [Custom Templates](#custom-templates)
-  - [Shortcodes](#shortcodes)
-- [Custom Styles](#custom-styles)
-- [Notes](#notes)
-- [Support](#support)
-
----
-
 ## Overview
 
 This child theme safely extends the Twenty Twenty theme by adding:
