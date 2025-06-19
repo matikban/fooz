@@ -1,7 +1,7 @@
 <?php
 require_once get_stylesheet_directory() . '/includes/custom-post-types.php';
 require_once get_stylesheet_directory() . '/includes/shortcodes.php';
-
+require_once get_stylesheet_directory() . '/includes/ajax-get-books.php';
 
 function fooz_enqueue_assets() {
     wp_enqueue_style(
@@ -16,6 +16,11 @@ function fooz_enqueue_assets() {
         null,
         true
     );
+
+    wp_localize_script('fooz-scripts', 'fooz_ajax_object', array(
+    'ajax_url' => admin_url('admin-ajax.php'),
+));
+
 }
 add_action('wp_enqueue_scripts', 'fooz_enqueue_assets');
 

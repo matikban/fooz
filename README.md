@@ -4,19 +4,6 @@ A child theme for the [Twenty Twenty](https://wordpress.org/themes/twentytwenty/
 
 ---
 
-## Overview
-
-This child theme safely extends the Twenty Twenty theme by adding:
-
-- Custom single book page and book genre taxonomy templates.
-- Shortcodes for dynamic book data display:
-  - `[most_recent_book_title]` — shows the most recent book title.
-  - `[books_by_genre term_id="3"]` — lists books from the specified genre (category ID).
-- Easy style additions via the child theme's `style.css`.
-- Minimal changes from the parent templates, ensuring the original design and functionality are preserved.
-
----
-
 ## Features & Usage
 
 ### Custom Templates
