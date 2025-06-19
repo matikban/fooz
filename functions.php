@@ -1,4 +1,5 @@
 <?php
+require_once get_stylesheet_directory() . '/includes/custom-post-types.php';
 
 function fooz_enqueue_assets() {
     wp_enqueue_style(
